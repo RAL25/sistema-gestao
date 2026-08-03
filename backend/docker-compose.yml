@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: sistema-gestao-api-db
+    ports:
+      - '5433:5432'
+    environment:
+      POSTGRES_DB: sistema-gestao-api
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 12345678
+    volumes:
+      - postgres_data:/var/lib/postgresql
+
+volumes:
+  postgres_data:
