@@ -125,3 +125,5 @@ Para mitigar compras simultâneas do último item do estoque, o sistema implemen
 - Testes: Cobertura de testes unitários para serviços de cálculo e testes de integração (E2E) para o fluxo crítico de vendas usando Jest.
 
 ---
+
+Para detalhes sobre a configuração da API, acesse o [README do Backend](./backend/README.md). Já se estiver interessado sobre detalhes da interface da aplicação, acesse o [README do frontend].
